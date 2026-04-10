@@ -1,2 +1,0 @@
-# Jaysrecto
-My first repository
