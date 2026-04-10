@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Cafeteria Weekly Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            width: 80%;
+            margin: 0 auto 20px;
+        }
+
+        .menu-box {
+            width: 100%;
+            margin: 0 auto;
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .day-row {
+            padding: 8px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .day-name {
+            font-weight: bold;
+            width: 100px;
+        }
+
+        .divider {
+            color: red;
+            font-weight: bold;
+        }
+
+        .special {
+            border: 1px dashed green;
+            padding: 2px 5px;
+        }
+
+        .drinks-table {
+            width: 110%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        .drinks-table th, .drinks-table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>School Cafeteria Weekly Menu</h2>
+
+    <div class="menu-box">
+        <ul style="list-style: none; padding: 0; margin: 0;">
+            <li class="day-row">
+                <span class="day-name">Monday</span>
+                <span class="divider">||</span>
+                <span class="special">Fried Chicken</span>
+            </li>
+            <li class="day-row">
+                <span class="day-name">Tuesday</span>
+                <span class="divider">||</span>
+                Spaghetti
+            </li>
+            <li class="day-row">
+                <span class="day-name">Wednesday</span>
+                <span class="divider">||</span>
+                Burger
+            </li>
+            <li class="day-row">
+                <span class="day-name">Thursday</span>
+                <span class="divider">||</span>
+                <span class="special">Grilled Fish</span>
+            </li>
+            <li class="day-row">
+                <span class="day-name">Friday</span>
+                <span class="divider">||</span>
+                Pizza
+            </li>
+        </ul>
+    </div>
+
+    <table class="drinks-table">
+        <tr>
+            <th>Drink</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Juice</td>
+            <td>₱50</td>
+        </tr>
+        <tr>
+            <td>Soda</td>
+            <td>₱75</td>
+        </tr>
+    </table>
+
+</body>
+</html>
